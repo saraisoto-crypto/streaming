@@ -16,23 +16,26 @@ Réplica de interfaz móvil (con fines académicos) de plataformas de streaming:
 | **Imágenes locales** | `assets/images/` → banners y avatares de perfiles (`Image.asset`) |
 | **Imágenes en la nube** | Pósters y episodios desde picsum.photos (`Image.network`) |
 
+## Estructura
+
+```
+lib/
+├── main.dart
+├── data/datos.dart
+├── theme/tema.dart
+├── widgets/poster_card.dart
+└── screens/
+    ├── plataformas_screen.dart
+    ├── perfiles_screen.dart
+    ├── inicio_screen.dart
+    ├── detalle_screen.dart
+    └── mi_lista_screen.dart
+assets/images/
+```
+
 ## Ejecutar
 
 ```bash
 flutter pub get
 flutter run
 ```
-
-## Evidencias
-
-| Plataformas | Perfiles | Inicio |
-|---|---|---|
-| ![](evidencias/01_plataformas.png) | ![](evidencias/02_perfiles.png) | ![](evidencias/03_inicio_netflix.png) |
-
-| Top 10 | Detalle | Mi lista |
-|---|---|---|
-| ![](evidencias/04_inicio_top10.png) | ![](evidencias/05_detalle.png) | ![](evidencias/06_mi_lista.png) |
-
-| Prime Video | Disney+ | Max |
-|---|---|---|
-| ![](evidencias/07_prime.png) | ![](evidencias/08_disney.png) | ![](evidencias/09_max.png) |
